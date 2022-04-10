@@ -61,14 +61,14 @@ const Todo = (props: Props) => {
                 props.todo?.fields.completed ? "line-through" : ""
               }`}
             >
-              Topic: {props.todo?.fields.topic}
+              Title: {props.todo?.fields.topic}
             </h2>
             <p
               className={`md:mt-0 ${
                 props.todo?.fields.completed ? "line-through" : ""
               }`}
             >
-              Todo: {props.todo?.fields.todo}
+              Description: {props.todo?.fields.todo}
             </p>
           </div>
         </div>
