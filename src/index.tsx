@@ -4,7 +4,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Auth0Provider } from "@auth0/auth0-react";
 
-const uri = "https://auth0-todo-delta.vercel.app/todo";
+const uri = "https://auth0-todolist.vercel.app/todo";
 
 ReactDOM.render(
   <React.StrictMode>
