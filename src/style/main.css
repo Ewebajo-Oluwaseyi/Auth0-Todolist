@@ -1,0 +1,13 @@
+@import "./Home.module.css";
+@import "./components.css";
+@tailwind base;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-background min-h-screen text-default;
+  }
+}

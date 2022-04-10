@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+  .btn {
+    @apply rounded-button flex items-center justify-center font-bold text-small;
+    @apply bg-primary focus:outline-none focus:ring-4 focus:ring-primary text-white;
+    @apply transition-shadow duration-300;
+    @apply h-10 md:h-11 px-4 md:px-8;
+  }
+}
