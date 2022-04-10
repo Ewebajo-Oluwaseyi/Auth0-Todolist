@@ -98,7 +98,7 @@ const Form = (props: Props) => {
               render={({ field: { value } }) => (
                 <TextInput
                   id="topic"
-                  label="Topic"
+                  label="Title"
                   placeholder="ex. Learn react"
                   isInValid={!!errors.topic}
                   validationMessage={errors.topic?.message}
@@ -133,7 +133,7 @@ const Form = (props: Props) => {
               render={({ field: { value } }) => (
                 <TextInput
                   id="todo"
-                  label="Todo"
+                  label="Description"
                   placeholder="ex. Learn react"
                   isInValid={!!errors.todo}
                   validationMessage={errors.todo?.message}
